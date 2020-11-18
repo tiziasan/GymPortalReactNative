@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7ee22c16-41b0-4c1a-85d4-4e517419f262" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ios/GymPortalReact.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/GymPortalReact.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/GymPortalReact/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/GymPortalReact/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/FeedbackApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/FeedbackApi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AddFeedbackCoursePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AddFeedbackCoursePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AddFeedbackGymPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AddFeedbackGymPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/GymPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/GymPage.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1k3VzB2vCT094YaXxkp3LYLEKkt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ee22c16-41b0-4c1a-85d4-4e517419f262" name="Default Changelist" comment="" />
+      <created>1604929521649</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604929521649</updated>
+      <workItem from="1604929524428" duration="3625000" />
+      <workItem from="1605000281907" duration="13735000" />
+      <workItem from="1605200749212" duration="676000" />
+      <workItem from="1605279077216" duration="238000" />
+      <workItem from="1605736862233" duration="308000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2423" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605091084474">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2423" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1605091084474" />
+    <state x="2298" y="283" width="683" height="486" key="find.popup" timestamp="1605114567663">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2298" y="283" width="683" height="486" key="find.popup/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1605114567663" />
+    <state x="2298" y="300" width="683" height="486" key="find.popup/1680.23.1920.1057/0.23.1680.981@1680.23.1920.1057" timestamp="1605006071469" />
+  </component>
+</project>

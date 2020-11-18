@@ -1,0 +1,6 @@
+module Pods_GymPortalReact {
+  umbrella header "Pods-GymPortalReact-umbrella.h"
+
+  export *
+  module * { export * }
+}
