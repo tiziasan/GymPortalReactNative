@@ -15,6 +15,7 @@ import {
 import {sAppLogged} from '../reducers/AppReducer';
 import {sFavoriteCourses, sFavoriteLoading} from '../reducers/FavoriteReducer';
 import CourseItem from './partial/CourseItem';
+import CardItem from '../components/CardItem';
 
 
 export default function({ navigation }) {
@@ -37,9 +38,6 @@ export default function({ navigation }) {
         </View>
     );
   }
-  if(favoriteCourses.length === 0) {
-    return <Text>Empty Courses List</Text>;
-  }
 
   return (
       <View style={styles.container}>
@@ -47,14 +45,22 @@ export default function({ navigation }) {
             refreshControl={ <RefreshControl refreshing={favoritesLoading} onRefresh={ () => {dispatch(favoriteCourseFetch());} } /> }
         >
           <Card>
-            {favoriteCourses.map((course, key) => (
-                <CourseItem
-                    key={`course-item-${course.id}`}
-                    course={course}
-                    isFavorite={ true } //se si toglie funziona uguale ma scompare cuore
-                    navigation={navigation}
-                />
-            ))}
+            {favoritesLoading
+                ? <ActivityIndicator size={'large'} color={'green'} />
+                : ( favoriteCourses.length
+                        ? favoriteCourses.map((course, key) => (
+                            <CourseItem
+                                key={`favorite-course-item-${course.id}`}
+                                course={course}
+                                isFavorite={ true } //se si toglie funziona uguale ma scompare cuore
+                                navigation={navigation}
+                            />
+                        ))
+                        : <CardItem>
+                          <Text>Non ci sono Corsi Preferiti!</Text>
+                        </CardItem>
+                )
+            }
           </Card>
         </ScrollView>
       </View>

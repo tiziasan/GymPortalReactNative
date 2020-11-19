@@ -33,7 +33,7 @@ class SignUpPage extends React.Component {
     super(props);
 
     this.goToSignIn = function() {
-      this.props.navigation.navigate('SignIn');
+      this.props.navigation.navigate('Accedi');
     }.bind(this);
 
   }

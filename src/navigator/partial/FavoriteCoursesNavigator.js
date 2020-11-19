@@ -9,7 +9,7 @@ const StackNavigator = createStackNavigator();
 export default function FavoriteCoursesNavigator({navigation}) {
   return (
       <StackNavigator.Navigator>
-        <StackNavigator.Screen name={'Favourite Courses'} component={FavoriteCoursesPage} options={{
+        <StackNavigator.Screen name={'Corsi Preferiti'} component={FavoriteCoursesPage} options={{
           headerLeft: () => (
               <MenuButtom
                   onPress={ () => { navigation.openDrawer(); } }
@@ -18,8 +18,8 @@ export default function FavoriteCoursesNavigator({navigation}) {
                   }}/>
           ),
         }}/>
-        <StackNavigator.Screen name={'Course'} component={CoursePage}/>
-        <StackNavigator.Screen name={'Add Feedback Course'} component={AddFeedbackCoursePage}/>
+        <StackNavigator.Screen name={'Corso'} component={CoursePage}/>
+        <StackNavigator.Screen name={'Aggiungi Recensione Corso'} component={AddFeedbackCoursePage}/>
       </StackNavigator.Navigator>
   )
 }

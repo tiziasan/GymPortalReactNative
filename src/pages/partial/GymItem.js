@@ -12,7 +12,7 @@ export default function({gym, isFavorite, navigation}) {
   }
 
   return (
-      <TouchableOpacity onPress={() => { navigation.navigate('Gym', {idGym: gym.id})}}>
+      <TouchableOpacity onPress={() => { navigation.navigate('Palestra', {idGym: gym.id})}}>
         <CardItem style={styles.containerCard}>
           <Image source={{uri: 'https://image.shutterstock.com/image-photo/image-250nw-721723381.jpg'}}
                  style={{width: '100%', height: 167,     borderRadius: 20}} />

@@ -28,7 +28,7 @@ class LoginPage extends React.Component {
     super(props);
 
     this.goToSignUp = function () {
-      this.props.navigation.navigate('SignUp');
+      this.props.navigation.navigate('Registrati');
     }.bind(this);
 
   }

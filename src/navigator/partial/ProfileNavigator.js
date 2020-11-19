@@ -7,7 +7,7 @@ const StackNavigator = createStackNavigator();
 export default function ProfileNavigator({navigation}) {
   return (
       <StackNavigator.Navigator>
-        <StackNavigator.Screen name={'Profile'} component={Profile} options={{
+        <StackNavigator.Screen name={'Profilo'} component={Profile} options={{
           headerLeft: () => (
               <MenuButtom
                   onPress={ () => { navigation.openDrawer(); } }

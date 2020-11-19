@@ -17,8 +17,8 @@ export default function() {
       <NavigationContainer>
         {!logged && (
             <RootStack.Navigator>
-              <RootStack.Screen name={'SignIn'} component={LoginPage}/>
-              <RootStack.Screen name={'SignUp'} component={SignUpPage}/>
+              <RootStack.Screen name={'Accedi'} component={LoginPage}/>
+              <RootStack.Screen name={'Registrati'} component={SignUpPage}/>
             </RootStack.Navigator>
         )}
         {logged && (

@@ -13,7 +13,7 @@ export default function({course, isFavorite, navigation}) {
 
   return(
       <TouchableOpacity onPress={() => {
-        navigation.navigate('Course', {idGym: course.gym, idCourse: course.id});
+        navigation.navigate('Corso', {idGym: course.gym, idCourse: course.id});
       }}>
         <CardItem style={styles.containerCard}>
           <Image source={{uri: 'https://image.shutterstock.com/image-photo/image-250nw-721723381.jpg'}}

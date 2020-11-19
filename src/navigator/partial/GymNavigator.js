@@ -12,7 +12,7 @@ const StackNavigator = createStackNavigator();
 export default function GymNavigator({navigation}) {
   return (
       <StackNavigator.Navigator>
-        <StackNavigator.Screen name={'Gym List'} component={GymListPage} options={{
+        <StackNavigator.Screen name={'Esplora Palestre'} component={GymListPage} options={{
           headerLeft: () => (
               <MenuButtom
                   onPress={ () => { navigation.openDrawer(); } }
@@ -21,11 +21,11 @@ export default function GymNavigator({navigation}) {
                   }}/>
           ),
         }} />
-        <StackNavigator.Screen name={'Gym'} component={GymPage}/>
-        <StackNavigator.Screen name={'Add Feedback Gym'} component={AddFeedbackGymPage}/>
-        <StackNavigator.Screen name={'Courses List'} component={CourseListPage}/>
-        <StackNavigator.Screen name={'Course'} component={CoursePage}/>
-        <StackNavigator.Screen name={'Add Feedback Course'} component={AddFeedbackCoursePage}/>
+        <StackNavigator.Screen name={'Palestra'} component={GymPage}/>
+        <StackNavigator.Screen name={'Aggiungi Recensione Palestra'} component={AddFeedbackGymPage}/>
+        <StackNavigator.Screen name={'Esplora Corsi'} component={CourseListPage}/>
+        <StackNavigator.Screen name={'Corso'} component={CoursePage}/>
+        <StackNavigator.Screen name={'Aggiungi Recensione Corso'} component={AddFeedbackCoursePage}/>
       </StackNavigator.Navigator>
   )
 }
