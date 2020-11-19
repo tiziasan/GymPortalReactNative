@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {userLogout, userRefreshToken} from './actions/UserActions';
+import {userLogout, userRefreshToken} from './actions';
 import {sAppLogged} from './reducers/AppReducer';
 import {sUserProps} from './reducers/UserReducer';
 
