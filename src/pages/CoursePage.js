@@ -48,10 +48,6 @@ function CoursePage({ route, navigation }) {
     }, []);
   }
 
-  useEffect(() => {
-    dispatch(feedbacksCourseFetch(idGym, idCourse));
-  }, []);
-
   if (loading || course === null){
     return (
         <View
@@ -60,6 +56,11 @@ function CoursePage({ route, navigation }) {
         </View>
     );
   }
+
+  useEffect(() => {
+    dispatch(feedbacksCourseFetch(idGym, idCourse));
+  }, []);
+
 
   return (
       <View style={styles.container}>
