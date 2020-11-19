@@ -110,8 +110,8 @@ export default function(state = INITIAL_STATE, action) {
         loading: false,
       };
 
-    case USER_LOGGED_OUT:
-      return INITIAL_STATE;
+    // case USER_LOGGED_OUT:
+    //   return INITIAL_STATE;
     default:
       return state;
   }
