@@ -17,23 +17,23 @@ const instance = axios.create({
   baseURL: url
 });
 
-instance.interceptors.request.use(request => {
-  // request.headers.Authorization = token;  //https://dev.to/axotion/why-you-shouldn-t-use-axios-interceptors-with-redux-16ff
-  console.log(request);
-  // Edit request config
-  return request;
-}, error => {
-  console.log(error);
-  return Promise.reject(error);
-});
-
-instance.interceptors.response.use(response => {
-  console.log('response ' + response.config.url,response);
-  // Edit response config
-  return response;
-}, error => {
-  console.log(error);
-  return Promise.reject(error);
-});
+// instance.interceptors.request.use(request => {
+//   // request.headers.Authorization = token;  //https://dev.to/axotion/why-you-shouldn-t-use-axios-interceptors-with-redux-16ff
+//   console.log(request);
+//   // Edit request config
+//   return request;
+// }, error => {
+//   console.log(error);
+//   return Promise.reject(error);
+// });
+//
+// instance.interceptors.response.use(response => {
+//   console.log('response ' + response.config.url,response);
+//   // Edit response config
+//   return response;
+// }, error => {
+//   console.log(error);
+//   return Promise.reject(error);
+// });
 
 export default instance;
